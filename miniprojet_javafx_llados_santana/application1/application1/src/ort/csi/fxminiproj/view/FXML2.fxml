@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="642.0" prefWidth="747.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ort.csi.fxminiproj.view.FXML2Controller">
+   <children>
+      <Label layoutX="53.0" layoutY="14.0" prefHeight="17.0" prefWidth="127.0" text="Inserer Devis" textFill="#367399">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="quotei" layoutX="17.0" layoutY="85.0" text="Quote ID" />
+      <Label fx:id="date" layoutX="17.0" layoutY="127.0" text="Date" />
+      <Label fx:id="pd" layoutX="11.0" layoutY="171.0" text="ProductID" />
+      <Label fx:id="cd" layoutX="16.0" layoutY="229.0" prefHeight="18.0" prefWidth="80.0" text="IDClient" />
+      <Label fx:id="quan" layoutX="10.0" layoutY="321.0" prefHeight="18.0" prefWidth="70.0" text="Quantite" />
+      <TextField fx:id="qid" layoutX="80.0" layoutY="81.0" />
+      <TextField fx:id="qn" layoutX="89.0" layoutY="308.0" />
+      <Label layoutX="469.0" layoutY="18.0" prefHeight="18.0" prefWidth="182.0" text="Changer prix" textAlignment="CENTER" textFill="#74964a">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="405.0" layoutY="95.0" prefHeight="18.0" prefWidth="89.0" text="IDProduit" textFill="#345726">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="405.0" layoutY="141.0" prefHeight="18.0" prefWidth="60.0" text="Nom" textFill="#65d14d">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="405.0" layoutY="189.0" text="Prix" textFill="#59cd3f">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="price" layoutX="476.0" layoutY="185.0" />
+      <Label fx:id="name" layoutX="507.0" layoutY="142.0" prefHeight="18.0" prefWidth="113.0" text="Label" />
+      <Button fx:id="addquote" layoutX="80.0" layoutY="359.0" mnemonicParsing="false" text="Inserer" />
+      <Button fx:id="updateprice" layoutX="494.0" layoutY="264.0" mnemonicParsing="false" text="Changer" />
+      <Label layoutX="451.0" layoutY="382.0" prefHeight="18.0" prefWidth="140.0" text="Ajouter produit">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="360.0" layoutY="429.0" text="ProductID" />
+      <Label layoutX="360.0" layoutY="472.0" prefHeight="18.0" prefWidth="54.0" text="Nom" />
+      <Label layoutX="360.0" layoutY="518.0" text="Quantity" />
+      <Label layoutX="360.0" layoutY="564.0" prefHeight="18.0" prefWidth="44.0" text="Prix" />
+      <Button fx:id="addproduct" layoutX="476.0" layoutY="603.0" mnemonicParsing="false" text="Ajouter" />
+      <TextField fx:id="produ" layoutX="456.0" layoutY="426.0" />
+      <TextField fx:id="nm" layoutX="456.0" layoutY="469.0" />
+      <TextField fx:id="qun" layoutX="458.0" layoutY="515.0" />
+      <TextField fx:id="pr" layoutX="458.0" layoutY="561.0" />
+      <Label fx:id="dt" layoutX="67.0" layoutY="128.0" prefHeight="18.0" prefWidth="196.0" text="Label" />
+      <ComboBox fx:id="pi" layoutX="96.0" layoutY="168.0" prefWidth="150.0" />
+      <ComboBox fx:id="ci" layoutX="96.0" layoutY="224.0" prefWidth="150.0" />
+      <ComboBox fx:id="proid" layoutX="485.0" layoutY="95.0" prefWidth="150.0" />
+      <Button fx:id="na" layoutX="663.0" layoutY="139.0" mnemonicParsing="false" text="Afficher" />
+      <Label layoutX="17.0" layoutY="272.0" prefHeight="18.0" prefWidth="113.0" text="Nom Client" />
+      <Label fx:id="cna" layoutX="171.0" layoutY="273.0" prefHeight="18.0" prefWidth="101.0" text="Label" />
+      <Button fx:id="displayc" layoutX="263.0" layoutY="268.0" mnemonicParsing="false" text="Afficher" />
+      <Label layoutX="230.0" layoutY="10.0" prefHeight="18.0" prefWidth="166.0" text="DeuxiemeFenetre" />
+   </children>
+</AnchorPane>
